@@ -3,7 +3,7 @@ import { BackgroundLines } from '@/components/ui/background-lines';
 import Link from 'next/link';
 import TextGenerateEffectDemo from './components/GenerateEffect';
 
-export function Home() {
+export default function Home() {
 	return (
 		<>
 			<BackgroundLines className='flex items-center justify-center w-full flex-col px-4'>
@@ -21,5 +21,3 @@ export function Home() {
 		</>
 	);
 }
-
-export default Home;
